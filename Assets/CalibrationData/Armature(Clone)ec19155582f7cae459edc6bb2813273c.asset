@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1260b785da3e24ebe737764cc33de0, type: 3}
+  m_Name: Armature(Clone)ec19155582f7cae459edc6bb2813273c
+  m_EditorClassIdentifier: 
+  note: 
+  parentCalibrationData:
+  - bone: 14
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/
+      childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/
+      tparentn: PipeServer/Body Parent/RIGHT_SHOULDER/
+      tchildn: PipeServer/Body Parent/RIGHT_ELBOW/
+      initialDir: {x: -0.9839332, y: 0.064669095, z: 0.16641352}
+      initialRotation: {x: -0.039863314, y: -0.043481473, z: -0.69008887, w: 0.7213167}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 16
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/
+      childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Right_Shoulder/Right_UpperArm/Right_LowerArm/Right_Hand/
+      tparentn: PipeServer/Body Parent/RIGHT_ELBOW/
+      tchildn: PipeServer/Body Parent/RIGHT_WRIST/
+      initialDir: {x: -0.99101996, y: -0.092789225, z: 0.09627826}
+      initialRotation: {x: -0.018391982, y: -0.05245926, z: -0.7040852, w: 0.7079364}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 2
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Right_UpperLeg/
+      childn: Armature(Clone)/Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/
+      tparentn: PipeServer/Body Parent/RIGHT_HIP/
+      tchildn: PipeServer/Body Parent/RIGHT_KNEE/
+      initialDir: {x: -0.022826744, y: -0.997113, z: 0.072419606}
+      initialRotation: {x: 0.01775374, y: 0.999839, z: -0.0026075041, w: -0.000046300407}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 4
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/
+      childn: Armature(Clone)/Skeleton/Hips/Right_UpperLeg/Right_LowerLeg/Right_Foot/
+      tparentn: PipeServer/Body Parent/RIGHT_KNEE/
+      tchildn: PipeServer/Body Parent/RIGHT_ANKLE/
+      initialDir: {x: 0.018348793, y: -0.83127344, z: 0.5555608}
+      initialRotation: {x: 0.017741872, y: 0.99917066, z: -0.03664658, w: -0.0006507186}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 13
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/
+      childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/
+      tparentn: PipeServer/Body Parent/LEFT_SHOULDER/
+      tchildn: PipeServer/Body Parent/LEFT_ELBOW/
+      initialDir: {x: 0.9158829, y: -0.29818296, z: -0.2687853}
+      initialRotation: {x: 0.72132146, y: 0.6900838, z: -0.043481518, w: 0.039862864}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 15
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/
+      childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Left_Shoulder/Left_UpperArm/Left_LowerArm/Left_Hand/
+      tparentn: PipeServer/Body Parent/LEFT_ELBOW/
+      tchildn: PipeServer/Body Parent/LEFT_WRIST/
+      initialDir: {x: 0.91932255, y: 0.0043537905, z: -0.39348075}
+      initialRotation: {x: 0.7079387, y: 0.70408326, z: -0.052453317, w: 0.018391915}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 1
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Left_UpperLeg/
+      childn: Armature(Clone)/Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/
+      tparentn: PipeServer/Body Parent/LEFT_HIP/
+      tchildn: PipeServer/Body Parent/LEFT_KNEE/
+      initialDir: {x: -0.026074514, y: -0.9915832, z: 0.1268182}
+      initialRotation: {x: 0.000046300094, y: -0.0026074864, z: -0.999839, w: 0.01775374}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 3
+    data:
+      parentn: Armature(Clone)/Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/
+      childn: Armature(Clone)/Skeleton/Hips/Left_UpperLeg/Left_LowerLeg/Left_Foot/
+      tparentn: PipeServer/Body Parent/LEFT_KNEE/
+      tchildn: PipeServer/Body Parent/LEFT_ANKLE/
+      initialDir: {x: 0.17889301, y: -0.87690556, z: 0.44613215}
+      initialRotation: {x: 0.0006507182, y: -0.03664656, z: -0.99917066, w: 0.017741872}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  spineUpDown:
+    parentn: Armature(Clone)/Skeleton/Hips/Spine/
+    childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Neck/
+    tparentn: VirtualHip/
+    tchildn: VirtualNeck/
+    initialDir: {x: -0.06044823, y: 0.89456934, z: -0.44282252}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  hipsTwist:
+    parentn: Armature(Clone)/Skeleton/Hips/
+    childn: Armature(Clone)/Skeleton/Hips/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.95560604, y: 0.013746643, z: -0.2943265}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  chest:
+    parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/
+    childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.95560604, y: 0.013746643, z: -0.2943265}
+    initialRotation: {x: -0, y: 1, z: -0, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  head:
+    parentn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Neck/
+    childn: Armature(Clone)/Skeleton/Hips/Spine/Chest/UpperChest/Neck/Head/
+    tparentn: VirtualNeck/
+    tchildn: PipeServer/Body Parent/NOSE/
+    initialDir: {x: 0.11821541, y: 0.3776161, z: -0.9183851}
+    initialRotation: {x: -0, y: 0.9981568, z: -0.060688436, w: 0}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
